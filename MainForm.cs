@@ -27,8 +27,8 @@ namespace MainMenu001
         public MainForm()
         {
             InitializeComponent();
-            textBox1.Visible = false;
-            this.BringToFront();
+            //textBox1.Visible = false;
+            //this.BringToFront();
         }
            private void MainForm_Load(object sender, EventArgs e)
         {
@@ -36,7 +36,7 @@ namespace MainMenu001
         }
         private void creditWIthToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            textBox1.Visible = false;
+           // textBox1.Visible = false;
         }
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -116,41 +116,14 @@ namespace MainMenu001
             System.Diagnostics.Process.Start(@"d:\cafiles\output\frca001.bat");
             workbook.Close();
             excelApp.Quit();
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
+            MessageBox.Show("Process is over and file [d:][CAFILES][NSDL][gencsvfiles] folder generated successfully!");
            
-            if (res == DialogResult.Yes)
-            {
-                MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][gencsvfiles] folder successfully");
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\gencsvfiles\";
-                //textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    //richTextBox1.Text = content; // Assuming textBox1 is the TextBox control
-                    //System.Diagnostics.Process.Start("notepad++",content);
-               //     textBox1.Text = content; // Assuming textBox1 is the TextBox control
-               //     textBox1.WordWrap = false;
-               //     button1.Visible = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
-           // textBox1.Visible = false;
-           // button1.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
            
-            textBox1.Visible=false;
+            //textBox1.Visible=false;
         }
         private void entryToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -182,32 +155,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd001.bat");
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\CDSL\gencsvfiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content; 
-                    textBox1.WordWrap = true;
-                    button1.Visible = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
-            //textBox1.Visible = false;
-            //button1.Visible = false;
         }
         private void requestsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -217,13 +164,13 @@ namespace MainMenu001
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "All files (*.*)|*.*";
-            textBox1.Visible = true;
+            //textBox1.Visible = true;
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string filePath = openFileDialog.FileName;
                 string content = File.ReadAllText(filePath);
-                textBox1.Text = content; 
-                textBox1.WordWrap = true;
+                //textBox1.Text = content; 
+                //textBox1.WordWrap = true;
             }
         }
 
@@ -264,31 +211,6 @@ namespace MainMenu001
                 excelApp.Quit();
                 
                 MessageBox.Show("Your File has been Generated in [d:][CAFILES][gencsvfiles] folder successfully");
-                var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-                if (res == DialogResult.Yes)
-                {
-                    OpenFileDialog openFileDialog = new OpenFileDialog();
-                    openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\gencsvfiles\";
-                    openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                    textBox1.Visible = true;
-                    if (openFileDialog.ShowDialog() == DialogResult.OK)
-                    {
-                        string filePath = openFileDialog.FileName;
-                        string content = File.ReadAllText(filePath);
-                        //richTextBox1.Text = content; // Assuming textBox1 is the TextBox control
-                        textBox1.Text = content; // Assuming textBox1 is the TextBox control
-                        textBox1.WordWrap = true;
-                    }
-                }
-                else if (res == DialogResult.No)
-                {
-                    MessageBox.Show("Ok");
-                }
-                else
-                {
-                    MessageBox.Show("Ok");
-                }
-
         }
 
         private void entryToolStripMenuItem5_Click(object sender, EventArgs e)
@@ -323,29 +245,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][gencsvfiles] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\gencsvfiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void conversionToolStripMenuItem3_Click(object sender, EventArgs e)
@@ -384,29 +283,6 @@ namespace MainMenu001
                 //con.Open();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][gencsvfiles] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\gencsvfiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem7_Click(object sender, EventArgs e)
@@ -441,29 +317,6 @@ namespace MainMenu001
                 //con.Open();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][gencsvfiles] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\gencsvfiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem8_Click(object sender, EventArgs e)
@@ -494,29 +347,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frca005.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][SCA] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\sca\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem9_Click(object sender, EventArgs e)
@@ -549,29 +379,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frca006.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][SCA] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\sca\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem10_Click(object sender, EventArgs e)
@@ -604,29 +411,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frca05b.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][SCA] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\nsdl\sca\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem11_Click(object sender, EventArgs e)
@@ -659,29 +443,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd002.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\gencsvfiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
 
         }
 
@@ -714,29 +475,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd003.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\gencsvfiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem13_Click(object sender, EventArgs e)
@@ -767,29 +505,6 @@ namespace MainMenu001
                 System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd004.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\gencsvfiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void notepadToolStripMenuItem_Click(object sender, EventArgs e)
@@ -831,29 +546,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\gencsvfiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void bothDebitCreditWithLockinExpiryDateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -888,30 +580,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\sca\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
-
         }
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
@@ -977,29 +645,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem2_Click_2(object sender, EventArgs e)
@@ -1030,29 +675,6 @@ namespace MainMenu001
             excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
 
         private void entryToolStripMenuItem3_Click(object sender, EventArgs e)
@@ -1083,29 +705,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
         }
         private void toolStripMenuItem5_Click(object sender, EventArgs e)
         {
@@ -1122,30 +721,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "TXT (*.txt)|*.txt|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-            }
-
         }
 
         private void entryToolStripMenuItem18_Click(object sender, EventArgs e)
@@ -1176,34 +751,10 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][CDSL][FRACTION] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-                //sqlcmd -E -S VCCIPL-TECH\VENTURESQLEXP -d vccipl -Q "EXEC vccipl.dbo.aifbulkonly3fsingleisincdsl"
-            }
         }
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-                MessageBox.Show("Please bear with us for sometime reg Manual on this Application!!!");
+                MessageBox.Show("Please bear with us for sometime - Manual on this Application!!!");
         }
         private void generationOfCAFileToolStripMenuItem12_Click(object sender, EventArgs e)
         {
@@ -1220,31 +771,6 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][AIF][CDSL][FRACTION] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
-            {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"D:\AIF\GenCsvFiles\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
-            }
-            else
-            {
-                MessageBox.Show("Ok");
-                //sqlcmd -E -S VCCIPL-TECH\VENTURESQLEXP -d vccipl -Q "EXEC vccipl.dbo.aifbulkonly3fsingleisincdsl"
-            }
         }
         private void notepadToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -1285,29 +811,54 @@ namespace MainMenu001
                 excelApp.Quit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
-            var res = MessageBox.Show("This a option to view generated file!", "Warning", MessageBoxButtons.YesNoCancel);
-            if (res == DialogResult.Yes)
+        }
+
+        private void escrowToClientAccountsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // clear
+        }
+
+        private void entryToolStripMenuItem20_Click(object sender, EventArgs e)
+        {
+            //entry
+            FileInfo fi9 = new FileInfo(@"d:\cafiles\NSDLCA05c.xlsx");
+            if (fi9.Exists)
             {
-                OpenFileDialog openFileDialog = new OpenFileDialog();
-                openFileDialog.InitialDirectory = @"d:\cafiles\cdsl\";
-                openFileDialog.Filter = "IPF (*.ipf)|*.ipf|" + "All files (*.*)|*.*";
-                textBox1.Visible = true;
-                if (openFileDialog.ShowDialog() == DialogResult.OK)
-                {
-                    string filePath = openFileDialog.FileName;
-                    string content = File.ReadAllText(filePath);
-                    textBox1.Text = content;
-                    textBox1.WordWrap = true;
-                }
-            }
-            else if (res == DialogResult.No)
-            {
-                MessageBox.Show("Ok");
+                System.Diagnostics.Process.Start(@"d:\cafiles\NSDLCA05C.xlsx");
             }
             else
             {
-                MessageBox.Show("Ok");
+                //file doesn't exist
+                MessageBox.Show("File Does Not Exits");
             }
+        }
+
+        private void generationOfSCAFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //generation
+            {
+                System.Diagnostics.Process.Start(@"D:\vccipl_projects\Deployment_Projects\xlstocsv05c\xlstocsv05c\bin\Debug\xlstocsv05c.exe").WaitForExit();
+                System.Diagnostics.Process.Start(@"d:\cafiles\cnvns5c.bat").WaitForExit();
+                Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+                Workbook workbook = excelApp.Workbooks.Open(@"d:\cafiles\nsdlca05c.xlsx");
+                Worksheet worksheet = workbook.Sheets["Parameters"];
+                string cellValue = worksheet.Range["J2"].Value.ToString();
+                workbook.Close();
+                excelApp.Quit();
+                File.WriteAllText(@"d:\cafiles\output\frca05c.bat", cellValue);
+                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca05c.bat").WaitForExit();
+            }
+            MessageBox.Show("Your File has been Generated in [d:][CAFILES][NSDL][SCA] folder successfully");
+        }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:\\Program Files\\Microsoft Office\\root\\Office16\\winword.exe");
+        }
+
+        private void toolStripMenuItem7_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:\\Program Files\\Microsoft Office\\root\\Office16\\excel.exe");
         }
     }
 }

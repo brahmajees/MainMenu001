@@ -34,29 +34,38 @@
             this.nORMALCAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator23 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfUploadFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditWithDNRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator22 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfUplFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.creditWithLockinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator21 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.debitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator24 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.debitWithDNRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator25 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator20 = new System.Windows.Forms.ToolStripSeparator();
             this.sIMULTANEOUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator26 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
             this.withLockinExpiryDateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator27 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
             this.withDNRangeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator28 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.cDSLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -104,6 +113,11 @@
             this.entryToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.generationOfCAFileToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator19 = new System.Windows.Forms.ToolStripSeparator();
+            this.escrowToClientAccountsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.entryToolStripMenuItem20 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator29 = new System.Windows.Forms.ToolStripSeparator();
+            this.generationOfSCAFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
             this.aIFCDSLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.entryToolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
@@ -120,13 +134,19 @@
             this.generationOfCAFileToolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
             this.requestsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notepadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notepadToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator34 = new System.Windows.Forms.ToolStripSeparator();
+            this.calculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator31 = new System.Windows.Forms.ToolStripSeparator();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator32 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator33 = new System.Windows.Forms.ToolStripSeparator();
             this.stampDutyCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -140,7 +160,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(11, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(821, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(983, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -165,6 +185,7 @@
             // 
             this.nSDLToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nORMALCAToolStripMenuItem,
+            this.toolStripSeparator20,
             this.sIMULTANEOUSToolStripMenuItem});
             this.nSDLToolStripMenuItem.Name = "nSDLToolStripMenuItem";
             this.nSDLToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
@@ -187,6 +208,7 @@
             // 
             this.creditToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem,
+            this.toolStripSeparator23,
             this.generationOfUploadFileToolStripMenuItem});
             this.creditToolStripMenuItem.Name = "creditToolStripMenuItem";
             this.creditToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -200,6 +222,11 @@
             this.entryToolStripMenuItem.Text = "Entry";
             this.entryToolStripMenuItem.Click += new System.EventHandler(this.entryToolStripMenuItem_Click);
             // 
+            // toolStripSeparator23
+            // 
+            this.toolStripSeparator23.Name = "toolStripSeparator23";
+            this.toolStripSeparator23.Size = new System.Drawing.Size(281, 6);
+            // 
             // generationOfUploadFileToolStripMenuItem
             // 
             this.generationOfUploadFileToolStripMenuItem.Name = "generationOfUploadFileToolStripMenuItem";
@@ -212,6 +239,7 @@
             // 
             this.creditWithDNRangeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem4,
+            this.toolStripSeparator22,
             this.generationOfUplFileToolStripMenuItem});
             this.creditWithDNRangeToolStripMenuItem.Name = "creditWithDNRangeToolStripMenuItem";
             this.creditWithDNRangeToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -224,6 +252,11 @@
             this.entryToolStripMenuItem4.Text = "Entry";
             this.entryToolStripMenuItem4.Click += new System.EventHandler(this.entryToolStripMenuItem4_Click);
             // 
+            // toolStripSeparator22
+            // 
+            this.toolStripSeparator22.Name = "toolStripSeparator22";
+            this.toolStripSeparator22.Size = new System.Drawing.Size(224, 6);
+            // 
             // generationOfUplFileToolStripMenuItem
             // 
             this.generationOfUplFileToolStripMenuItem.Name = "generationOfUplFileToolStripMenuItem";
@@ -235,6 +268,7 @@
             // 
             this.creditWithLockinToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem5,
+            this.toolStripSeparator21,
             this.generationOfCAFileToolStripMenuItem3});
             this.creditWithLockinToolStripMenuItem.Name = "creditWithLockinToolStripMenuItem";
             this.creditWithLockinToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -246,6 +280,11 @@
             this.entryToolStripMenuItem5.Size = new System.Drawing.Size(227, 26);
             this.entryToolStripMenuItem5.Text = "Entry";
             this.entryToolStripMenuItem5.Click += new System.EventHandler(this.entryToolStripMenuItem5_Click);
+            // 
+            // toolStripSeparator21
+            // 
+            this.toolStripSeparator21.Name = "toolStripSeparator21";
+            this.toolStripSeparator21.Size = new System.Drawing.Size(224, 6);
             // 
             // generationOfCAFileToolStripMenuItem3
             // 
@@ -263,6 +302,7 @@
             // 
             this.debitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem6,
+            this.toolStripSeparator24,
             this.generationOfCAFileToolStripMenuItem4});
             this.debitToolStripMenuItem.Name = "debitToolStripMenuItem";
             this.debitToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -275,6 +315,11 @@
             this.entryToolStripMenuItem6.Text = "Entry";
             this.entryToolStripMenuItem6.Click += new System.EventHandler(this.entryToolStripMenuItem6_Click);
             // 
+            // toolStripSeparator24
+            // 
+            this.toolStripSeparator24.Name = "toolStripSeparator24";
+            this.toolStripSeparator24.Size = new System.Drawing.Size(224, 6);
+            // 
             // generationOfCAFileToolStripMenuItem4
             // 
             this.generationOfCAFileToolStripMenuItem4.Name = "generationOfCAFileToolStripMenuItem4";
@@ -286,6 +331,7 @@
             // 
             this.debitWithDNRangeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem7,
+            this.toolStripSeparator25,
             this.generationOfCAFileToolStripMenuItem5});
             this.debitWithDNRangeToolStripMenuItem.Name = "debitWithDNRangeToolStripMenuItem";
             this.debitWithDNRangeToolStripMenuItem.Size = new System.Drawing.Size(256, 26);
@@ -298,12 +344,22 @@
             this.entryToolStripMenuItem7.Text = "Entry";
             this.entryToolStripMenuItem7.Click += new System.EventHandler(this.entryToolStripMenuItem7_Click);
             // 
+            // toolStripSeparator25
+            // 
+            this.toolStripSeparator25.Name = "toolStripSeparator25";
+            this.toolStripSeparator25.Size = new System.Drawing.Size(224, 6);
+            // 
             // generationOfCAFileToolStripMenuItem5
             // 
             this.generationOfCAFileToolStripMenuItem5.Name = "generationOfCAFileToolStripMenuItem5";
             this.generationOfCAFileToolStripMenuItem5.Size = new System.Drawing.Size(227, 26);
             this.generationOfCAFileToolStripMenuItem5.Text = "Generation of CA File";
             this.generationOfCAFileToolStripMenuItem5.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem5_Click);
+            // 
+            // toolStripSeparator20
+            // 
+            this.toolStripSeparator20.Name = "toolStripSeparator20";
+            this.toolStripSeparator20.Size = new System.Drawing.Size(193, 6);
             // 
             // sIMULTANEOUSToolStripMenuItem
             // 
@@ -319,6 +375,7 @@
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem10,
+            this.toolStripSeparator26,
             this.generationOfCAFileToolStripMenuItem8});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(249, 26);
@@ -327,21 +384,27 @@
             // entryToolStripMenuItem10
             // 
             this.entryToolStripMenuItem10.Name = "entryToolStripMenuItem10";
-            this.entryToolStripMenuItem10.Size = new System.Drawing.Size(227, 26);
+            this.entryToolStripMenuItem10.Size = new System.Drawing.Size(236, 26);
             this.entryToolStripMenuItem10.Text = "Entry";
             this.entryToolStripMenuItem10.Click += new System.EventHandler(this.entryToolStripMenuItem10_Click);
+            // 
+            // toolStripSeparator26
+            // 
+            this.toolStripSeparator26.Name = "toolStripSeparator26";
+            this.toolStripSeparator26.Size = new System.Drawing.Size(233, 6);
             // 
             // generationOfCAFileToolStripMenuItem8
             // 
             this.generationOfCAFileToolStripMenuItem8.Name = "generationOfCAFileToolStripMenuItem8";
-            this.generationOfCAFileToolStripMenuItem8.Size = new System.Drawing.Size(227, 26);
-            this.generationOfCAFileToolStripMenuItem8.Text = "Generation of CA File";
+            this.generationOfCAFileToolStripMenuItem8.Size = new System.Drawing.Size(236, 26);
+            this.generationOfCAFileToolStripMenuItem8.Text = "Generation of SCA File";
             this.generationOfCAFileToolStripMenuItem8.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem8_Click);
             // 
             // withLockinExpiryDateToolStripMenuItem
             // 
             this.withLockinExpiryDateToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem8,
+            this.toolStripSeparator27,
             this.generationOfCAFileToolStripMenuItem6});
             this.withLockinExpiryDateToolStripMenuItem.Name = "withLockinExpiryDateToolStripMenuItem";
             this.withLockinExpiryDateToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
@@ -350,21 +413,27 @@
             // entryToolStripMenuItem8
             // 
             this.entryToolStripMenuItem8.Name = "entryToolStripMenuItem8";
-            this.entryToolStripMenuItem8.Size = new System.Drawing.Size(227, 26);
+            this.entryToolStripMenuItem8.Size = new System.Drawing.Size(236, 26);
             this.entryToolStripMenuItem8.Text = "Entry";
             this.entryToolStripMenuItem8.Click += new System.EventHandler(this.entryToolStripMenuItem8_Click);
+            // 
+            // toolStripSeparator27
+            // 
+            this.toolStripSeparator27.Name = "toolStripSeparator27";
+            this.toolStripSeparator27.Size = new System.Drawing.Size(233, 6);
             // 
             // generationOfCAFileToolStripMenuItem6
             // 
             this.generationOfCAFileToolStripMenuItem6.Name = "generationOfCAFileToolStripMenuItem6";
-            this.generationOfCAFileToolStripMenuItem6.Size = new System.Drawing.Size(227, 26);
-            this.generationOfCAFileToolStripMenuItem6.Text = "Generation of CA File";
+            this.generationOfCAFileToolStripMenuItem6.Size = new System.Drawing.Size(236, 26);
+            this.generationOfCAFileToolStripMenuItem6.Text = "Generation of SCA File";
             this.generationOfCAFileToolStripMenuItem6.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem6_Click);
             // 
             // withDNRangeToolStripMenuItem
             // 
             this.withDNRangeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.entryToolStripMenuItem9,
+            this.toolStripSeparator28,
             this.generationOfCAFileToolStripMenuItem7});
             this.withDNRangeToolStripMenuItem.Name = "withDNRangeToolStripMenuItem";
             this.withDNRangeToolStripMenuItem.Size = new System.Drawing.Size(249, 26);
@@ -373,15 +442,20 @@
             // entryToolStripMenuItem9
             // 
             this.entryToolStripMenuItem9.Name = "entryToolStripMenuItem9";
-            this.entryToolStripMenuItem9.Size = new System.Drawing.Size(227, 26);
+            this.entryToolStripMenuItem9.Size = new System.Drawing.Size(236, 26);
             this.entryToolStripMenuItem9.Text = "Entry";
             this.entryToolStripMenuItem9.Click += new System.EventHandler(this.entryToolStripMenuItem9_Click);
+            // 
+            // toolStripSeparator28
+            // 
+            this.toolStripSeparator28.Name = "toolStripSeparator28";
+            this.toolStripSeparator28.Size = new System.Drawing.Size(233, 6);
             // 
             // generationOfCAFileToolStripMenuItem7
             // 
             this.generationOfCAFileToolStripMenuItem7.Name = "generationOfCAFileToolStripMenuItem7";
-            this.generationOfCAFileToolStripMenuItem7.Size = new System.Drawing.Size(227, 26);
-            this.generationOfCAFileToolStripMenuItem7.Text = "Generation of CA File";
+            this.generationOfCAFileToolStripMenuItem7.Size = new System.Drawing.Size(236, 26);
+            this.generationOfCAFileToolStripMenuItem7.Text = "Generation of SCA File";
             this.generationOfCAFileToolStripMenuItem7.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem7_Click);
             // 
             // toolStripSeparator3
@@ -602,15 +676,15 @@
             // eNTRYToolStripMenuItem15
             // 
             this.eNTRYToolStripMenuItem15.Name = "eNTRYToolStripMenuItem15";
-            this.eNTRYToolStripMenuItem15.Size = new System.Drawing.Size(227, 26);
+            this.eNTRYToolStripMenuItem15.Size = new System.Drawing.Size(236, 26);
             this.eNTRYToolStripMenuItem15.Text = "Entry";
             this.eNTRYToolStripMenuItem15.Click += new System.EventHandler(this.eNTRYToolStripMenuItem15_Click_1);
             // 
             // generationOfCAFileToolStripMenuItem11
             // 
             this.generationOfCAFileToolStripMenuItem11.Name = "generationOfCAFileToolStripMenuItem11";
-            this.generationOfCAFileToolStripMenuItem11.Size = new System.Drawing.Size(227, 26);
-            this.generationOfCAFileToolStripMenuItem11.Text = "Generation of CA File";
+            this.generationOfCAFileToolStripMenuItem11.Size = new System.Drawing.Size(236, 26);
+            this.generationOfCAFileToolStripMenuItem11.Text = "Generation of SCA File";
             this.generationOfCAFileToolStripMenuItem11.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem11_Click_1);
             // 
             // toolStripSeparator5
@@ -625,7 +699,9 @@
             this.toolStripSeparator9,
             this.additionalAllotmentToolStripMenuItem,
             this.toolStripSeparator16,
-            this.redemptionToolStripMenuItem});
+            this.redemptionToolStripMenuItem,
+            this.toolStripSeparator19,
+            this.escrowToClientAccountsToolStripMenuItem});
             this.aIFNSDLToolStripMenuItem1.Name = "aIFNSDLToolStripMenuItem1";
             this.aIFNSDLToolStripMenuItem1.Size = new System.Drawing.Size(231, 26);
             this.aIFNSDLToolStripMenuItem1.Text = "AIF-NSDL";
@@ -637,7 +713,7 @@
             this.toolStripSeparator10,
             this.generationOfCAFileToolStripMenuItem12});
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(223, 26);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(258, 26);
             this.toolStripMenuItem6.Text = "Convesion into SOA";
             // 
             // entryToolStripMenuItem3
@@ -662,7 +738,7 @@
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(220, 6);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(255, 6);
             // 
             // additionalAllotmentToolStripMenuItem
             // 
@@ -671,7 +747,7 @@
             this.toolStripSeparator11,
             this.generationOfCAFileToolStripMenuItem13});
             this.additionalAllotmentToolStripMenuItem.Name = "additionalAllotmentToolStripMenuItem";
-            this.additionalAllotmentToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.additionalAllotmentToolStripMenuItem.Size = new System.Drawing.Size(258, 26);
             this.additionalAllotmentToolStripMenuItem.Text = "Additional Allotment";
             // 
             // entryToolStripMenuItem17
@@ -696,7 +772,7 @@
             // toolStripSeparator16
             // 
             this.toolStripSeparator16.Name = "toolStripSeparator16";
-            this.toolStripSeparator16.Size = new System.Drawing.Size(220, 6);
+            this.toolStripSeparator16.Size = new System.Drawing.Size(255, 6);
             // 
             // redemptionToolStripMenuItem
             // 
@@ -705,7 +781,7 @@
             this.toolStripSeparator8,
             this.generationOfCAFileToolStripMenuItem1});
             this.redemptionToolStripMenuItem.Name = "redemptionToolStripMenuItem";
-            this.redemptionToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.redemptionToolStripMenuItem.Size = new System.Drawing.Size(258, 26);
             this.redemptionToolStripMenuItem.Text = "Redemption";
             // 
             // entryToolStripMenuItem2
@@ -726,6 +802,41 @@
             this.generationOfCAFileToolStripMenuItem1.Size = new System.Drawing.Size(227, 26);
             this.generationOfCAFileToolStripMenuItem1.Text = "Generation of CA File";
             this.generationOfCAFileToolStripMenuItem1.Click += new System.EventHandler(this.generationOfCAFileToolStripMenuItem1_Click_1);
+            // 
+            // toolStripSeparator19
+            // 
+            this.toolStripSeparator19.Name = "toolStripSeparator19";
+            this.toolStripSeparator19.Size = new System.Drawing.Size(255, 6);
+            // 
+            // escrowToClientAccountsToolStripMenuItem
+            // 
+            this.escrowToClientAccountsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.entryToolStripMenuItem20,
+            this.toolStripSeparator29,
+            this.generationOfSCAFileToolStripMenuItem});
+            this.escrowToClientAccountsToolStripMenuItem.Name = "escrowToClientAccountsToolStripMenuItem";
+            this.escrowToClientAccountsToolStripMenuItem.Size = new System.Drawing.Size(258, 26);
+            this.escrowToClientAccountsToolStripMenuItem.Text = "Escrow to Client Accounts";
+            this.escrowToClientAccountsToolStripMenuItem.Click += new System.EventHandler(this.escrowToClientAccountsToolStripMenuItem_Click);
+            // 
+            // entryToolStripMenuItem20
+            // 
+            this.entryToolStripMenuItem20.Name = "entryToolStripMenuItem20";
+            this.entryToolStripMenuItem20.Size = new System.Drawing.Size(236, 26);
+            this.entryToolStripMenuItem20.Text = "Entry";
+            this.entryToolStripMenuItem20.Click += new System.EventHandler(this.entryToolStripMenuItem20_Click);
+            // 
+            // toolStripSeparator29
+            // 
+            this.toolStripSeparator29.Name = "toolStripSeparator29";
+            this.toolStripSeparator29.Size = new System.Drawing.Size(233, 6);
+            // 
+            // generationOfSCAFileToolStripMenuItem
+            // 
+            this.generationOfSCAFileToolStripMenuItem.Name = "generationOfSCAFileToolStripMenuItem";
+            this.generationOfSCAFileToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
+            this.generationOfSCAFileToolStripMenuItem.Text = "Generation of SCA File";
+            this.generationOfSCAFileToolStripMenuItem.Click += new System.EventHandler(this.generationOfSCAFileToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
             // 
@@ -828,9 +939,16 @@
             // 
             this.requestsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.notepadToolStripMenuItem,
-            this.calculatorToolStripMenuItem,
-            this.helpToolStripMenuItem,
             this.notepadToolStripMenuItem1,
+            this.toolStripSeparator30,
+            this.toolStripMenuItem4,
+            this.toolStripMenuItem7,
+            this.toolStripSeparator34,
+            this.calculatorToolStripMenuItem,
+            this.toolStripSeparator31,
+            this.helpToolStripMenuItem,
+            this.toolStripSeparator32,
+            this.toolStripSeparator33,
             this.stampDutyCalculatorToolStripMenuItem});
             this.requestsToolStripMenuItem.Name = "requestsToolStripMenuItem";
             this.requestsToolStripMenuItem.Size = new System.Drawing.Size(59, 25);
@@ -841,8 +959,39 @@
             // 
             this.notepadToolStripMenuItem.Name = "notepadToolStripMenuItem";
             this.notepadToolStripMenuItem.Size = new System.Drawing.Size(228, 26);
-            this.notepadToolStripMenuItem.Text = "notepad++";
+            this.notepadToolStripMenuItem.Text = "Notepad ++";
             this.notepadToolStripMenuItem.Click += new System.EventHandler(this.notepadToolStripMenuItem_Click);
+            // 
+            // notepadToolStripMenuItem1
+            // 
+            this.notepadToolStripMenuItem1.Name = "notepadToolStripMenuItem1";
+            this.notepadToolStripMenuItem1.Size = new System.Drawing.Size(228, 26);
+            this.notepadToolStripMenuItem1.Text = "Notepad";
+            this.notepadToolStripMenuItem1.Click += new System.EventHandler(this.notepadToolStripMenuItem1_Click);
+            // 
+            // toolStripSeparator30
+            // 
+            this.toolStripSeparator30.Name = "toolStripSeparator30";
+            this.toolStripSeparator30.Size = new System.Drawing.Size(225, 6);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(228, 26);
+            this.toolStripMenuItem4.Text = "Microsoft Word";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(228, 26);
+            this.toolStripMenuItem7.Text = "Microsoft Excel";
+            this.toolStripMenuItem7.Click += new System.EventHandler(this.toolStripMenuItem7_Click);
+            // 
+            // toolStripSeparator34
+            // 
+            this.toolStripSeparator34.Name = "toolStripSeparator34";
+            this.toolStripSeparator34.Size = new System.Drawing.Size(225, 6);
             // 
             // calculatorToolStripMenuItem
             // 
@@ -851,6 +1000,11 @@
             this.calculatorToolStripMenuItem.Text = "Calculator";
             this.calculatorToolStripMenuItem.Click += new System.EventHandler(this.calculatorToolStripMenuItem_Click);
             // 
+            // toolStripSeparator31
+            // 
+            this.toolStripSeparator31.Name = "toolStripSeparator31";
+            this.toolStripSeparator31.Size = new System.Drawing.Size(225, 6);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
@@ -858,12 +1012,15 @@
             this.helpToolStripMenuItem.Text = "Help";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
-            // notepadToolStripMenuItem1
+            // toolStripSeparator32
             // 
-            this.notepadToolStripMenuItem1.Name = "notepadToolStripMenuItem1";
-            this.notepadToolStripMenuItem1.Size = new System.Drawing.Size(228, 26);
-            this.notepadToolStripMenuItem1.Text = "Notepad";
-            this.notepadToolStripMenuItem1.Click += new System.EventHandler(this.notepadToolStripMenuItem1_Click);
+            this.toolStripSeparator32.Name = "toolStripSeparator32";
+            this.toolStripSeparator32.Size = new System.Drawing.Size(225, 6);
+            // 
+            // toolStripSeparator33
+            // 
+            this.toolStripSeparator33.Name = "toolStripSeparator33";
+            this.toolStripSeparator33.Size = new System.Drawing.Size(225, 6);
             // 
             // stampDutyCalculatorToolStripMenuItem
             // 
@@ -890,34 +1047,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.AcceptsReturn = true;
-            this.textBox1.AcceptsTab = true;
-            this.textBox1.AllowDrop = true;
-            this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.HideSelection = false;
-            this.textBox1.ImeMode = System.Windows.Forms.ImeMode.On;
-            this.textBox1.Location = new System.Drawing.Point(14, 115);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(5);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(656, 289);
-            this.textBox1.TabIndex = 2;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(821, 436);
+            this.ClientSize = new System.Drawing.Size(983, 462);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
@@ -982,7 +1117,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem10;
         private System.Windows.Forms.ToolStripMenuItem generationOfCAFileToolStripMenuItem8;
-        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem11;
         private System.Windows.Forms.ToolStripMenuItem geneartionOfCAFileToolStripMenuItem;
@@ -992,7 +1126,6 @@
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem13;
         private System.Windows.Forms.ToolStripMenuItem generationOfCAFileToolStripMenuItem10;
         private System.Windows.Forms.ToolStripMenuItem notepadToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem calculatorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem14;
         private System.Windows.Forms.ToolStripMenuItem generationOfToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eNTRYToolStripMenuItem15;
@@ -1001,7 +1134,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
         private System.Windows.Forms.ToolStripMenuItem aIFCDSLToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem16;
@@ -1036,6 +1168,29 @@
         private System.Windows.Forms.ToolStripMenuItem bothDrCrToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem19;
         private System.Windows.Forms.ToolStripMenuItem generationOfCAFileToolStripMenuItem15;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator19;
+        private System.Windows.Forms.ToolStripMenuItem escrowToClientAccountsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem entryToolStripMenuItem20;
+        private System.Windows.Forms.ToolStripMenuItem generationOfSCAFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator23;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator22;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator21;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator24;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator25;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator20;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator26;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator27;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator28;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator29;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator30;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator31;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator32;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator33;
+        private System.Windows.Forms.ToolStripMenuItem calculatorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator34;
     }
 }
 

@@ -78,14 +78,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MainMenu001.exe" size="65992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MainMenu001.exe" size="65480">
       <assemblyIdentity name="MainMenu001" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>nX8wN5RP+sLhTH+CGdUO8Xg8J9o9jw9j0dQBa1OPAB8=</dsig:DigestValue>
+        <dsig:DigestValue>C3AYfDLO4Gg5qh1o65EvTWlxHtjsYuCiD+cDSgxo3OA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
