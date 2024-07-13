@@ -113,7 +113,7 @@ namespace MainMenu001
             Worksheet worksheet = workbook.Sheets["Parameters"];
             string cellValue = worksheet.Range["D2"].Value.ToString();
             File.WriteAllText(@"d:\cafiles\output\frca001.bat", cellValue);
-            System.Diagnostics.Process.Start(@"d:\cafiles\output\frca001.bat");
+            System.Diagnostics.Process.Start(@"d:\cafiles\output\frca001.bat").WaitForExit();
             workbook.Close();
             excelApp.Quit();
             MessageBox.Show("Process is over and file [d:][CAFILES][NSDL][gencsvfiles] folder generated successfully!");
@@ -152,7 +152,7 @@ namespace MainMenu001
                 workbook.Close();
                 excelApp.Quit();
                 File.WriteAllText(@"d:\cafiles\output\frcd001.bat", cellValue);
-                System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd001.bat");
+                System.Diagnostics.Process.Start(@"d:\cafiles\output\frcd001.bat").WaitForExit();
             }
             MessageBox.Show("Your File has been Generated in [D][CAFILES][CDSL][GENCSVFILES] folder successfully");
         }
@@ -238,7 +238,7 @@ namespace MainMenu001
                 Worksheet worksheet = workbook.Sheets["Parameters"];
                 string cellValue = worksheet.Range["G2"].Value.ToString();
                 File.WriteAllText(@"d:\cafiles\output\frca002.bat", cellValue);
-                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca002.bat");
+                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca002.bat").WaitForExit();
                 //SqlConnection con = new SqlConnection("Data Source=VCCIPL-TECH\\VENTURESQLEXP;Initial Catalog=VCCIPL;Integrated Security=True;");
                 //con.Open();
                 workbook.Close();
@@ -278,7 +278,7 @@ namespace MainMenu001
                 workbook.Close();
                 excelApp.Quit();
                 File.WriteAllText(@"d:\cafiles\output\frca003.bat", cellValue);
-                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca003.bat");
+                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca003.bat").WaitForExit();
                 //SqlConnection con = new SqlConnection(@"Data Source=VCCIPL-TECH\VENTURESQLEXP;Initial Catalog=VCCIPL;Integrated Security=True;");
                 //con.Open();
             }
@@ -312,7 +312,7 @@ namespace MainMenu001
                 workbook.Close();
                 excelApp.Quit();
                 File.WriteAllText(@"d:\cafiles\output\frca004.bat", cellValue);
-                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca004.bat");
+                System.Diagnostics.Process.Start(@"d:\cafiles\output\frca004.bat").WaitForExit();
                 //SqlConnection con = new SqlConnection(@"Data Source=VCCIPL-TECH\VENTURESQLEXP;Initial Catalog=VCCIPL;Integrated Security=True;");
                 //con.Open();
             }
